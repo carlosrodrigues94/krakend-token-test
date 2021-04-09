@@ -1,0 +1,41 @@
+Arguments: 
+  /home/carlos/.nvm/versions/node/v14.16.0/bin/node /home/carlos/.nvm/versions/node/v14.16.0/bin/yarn add typescript ts-config-paths
+
+PATH: 
+  /home/carlos/.nvm/versions/node/v14.16.0/bin:/home/carlos/.zinit/polaris/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  14.16.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/ts-config-paths: Not found
+      at Request.params.callback [as _callback] (/home/carlos/.nvm/versions/node/v14.16.0/lib/node_modules/yarn/lib/cli.js:66988:18)
+      at Request.self.callback (/home/carlos/.nvm/versions/node/v14.16.0/lib/node_modules/yarn/lib/cli.js:140662:22)
+      at Request.emit (events.js:315:20)
+      at Request.<anonymous> (/home/carlos/.nvm/versions/node/v14.16.0/lib/node_modules/yarn/lib/cli.js:141634:10)
+      at Request.emit (events.js:315:20)
+      at IncomingMessage.<anonymous> (/home/carlos/.nvm/versions/node/v14.16.0/lib/node_modules/yarn/lib/cli.js:141556:12)
+      at Object.onceWrapper (events.js:421:28)
+      at IncomingMessage.emit (events.js:327:22)
+      at endReadableNT (internal/streams/readable.js:1327:12)
+      at processTicksAndRejections (internal/process/task_queues.js:80:21)
+
+npm manifest: 
+  {
+    "name": "kafka-container",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

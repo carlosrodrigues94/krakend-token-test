@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "timeout": "10000ms",
+  "cache_ttl": "300s",
+  "name": "api-local",
+  "output_encoding": "json",
+  "port": 8080,
+
+  "endpoints": [
+    {
+      "extra_config": {
+        "github.com/devopsfaith/krakend-jose/validator": {
+          "alg": "RS256",
+          "jwk-url": "https://53c2225616ef.ngrok.io/get-jwt"
+        }
+      },
+      "endpoint": "/krakend-gateway",
+      "encoding": "json",
+      "backend": [
+        {
+          "host": ["https://53c2225616ef.ngrok.io/"],
+          "url_pattern": "/first-route"
+        }
+      ]
+    }
+  ]
+}
