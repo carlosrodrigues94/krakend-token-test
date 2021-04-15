@@ -49,7 +49,7 @@ app.post("generate-key", (req, res) => {
 app.post("/token-generate", (req, res) => {
   const token = jwt.sign({ data: "test" }, tokenPrivateKey, {
     algorithm: "RS256",
-    keyid: "037e0c03-b73f-4e5b-9a78-e99414a6047d",
+    keyid: "",
   });
 
   return res.json({ token });

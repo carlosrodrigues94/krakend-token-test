@@ -1,1 +1,144 @@
-{"_type":"export","__export_format":4,"__export_date":"2021-04-09T15:08:13.514Z","__export_source":"insomnia.desktop.app:v2021.2.1","resources":[{"_id":"req_f95bf655085141309c7cdd32be958956","parentId":"wrk_139b3a6f18344e0085b2c3597e6f9172","modified":1617980827048,"created":1617830274554,"url":"http://localhost:8080/krakend-gateway","name":"KRAKEND","description":"","method":"GET","body":{"mimeType":"application/json","text":""},"parameters":[],"headers":[{"name":"alg","value":"RS256","description":"","id":"pair_1e0b3afa903f4a1399f4ba65b2b213d5"},{"name":"typ","value":"JWT","description":"","id":"pair_968021be5a824607b90c4c7d0c629b17"},{"name":"kid","value":"037e0c03-b73f-4e5b-9a78-e99414a6047d","description":"","id":"pair_3e48b8ccfe04468195de78987772e120"},{"name":"Authorization","value":"Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IjAzN2UwYzAzLWI3M2YtNGU1Yi05YTc4LWU5OTQxNGE2MDQ3ZCJ9.eyJkYXRhIjoidGVzdCIsImlhdCI6MTYxNzkyMDczNH0.F1VIGlmiOvT0-uz0AYQWmLRbwccU09t2UEaXiI5J-OD3fUTBvknOfjsRppx4pVD0OnMfLpE744oGGjLUYd3jmLNOr-OHJPxNwaNN2X5iTaPW_Qw2Fe6C16sNSFpObSk1MTaasDKY88gp663yiCVN0bE0_lsGlKct-zhbOKXop3w","description":"","id":"pair_becd3d4bbee84213a3877ddf5c20ad35"}],"authentication":{},"metaSortKey":-1617830274555,"isPrivate":false,"settingStoreCookies":true,"settingSendCookies":true,"settingDisableRenderRequestBody":false,"settingEncodeUrl":true,"settingRebuildPath":true,"settingFollowRedirects":"global","_type":"request"},{"_id":"wrk_139b3a6f18344e0085b2c3597e6f9172","parentId":null,"modified":1617830261531,"created":1617830261531,"name":"KrakenD - KAFKA - API  - TEST","description":"","scope":"collection","_type":"workspace"},{"_id":"req_c9394c007f0d47afaa65672cddcb229a","parentId":"wrk_139b3a6f18344e0085b2c3597e6f9172","modified":1617912249478,"created":1617830588485,"url":"http://0cc44be251fd.ngrok.io/first-route","name":"GET First Route HTTPS","description":"","method":"POST","body":{},"parameters":[],"headers":[],"authentication":{},"metaSortKey":-1617515837998.5,"isPrivate":false,"settingStoreCookies":true,"settingSendCookies":true,"settingDisableRenderRequestBody":false,"settingEncodeUrl":true,"settingRebuildPath":true,"settingFollowRedirects":"global","_type":"request"},{"_id":"req_5a3c52deb9c44ee4946b9992b41ed2c7","parentId":"wrk_139b3a6f18344e0085b2c3597e6f9172","modified":1617919141604,"created":1617919128315,"url":"http://localhost:3000/token-generate","name":"Token Generate","description":"","method":"POST","body":{},"parameters":[],"headers":[],"authentication":{},"metaSortKey":-1617358619720.25,"isPrivate":false,"settingStoreCookies":true,"settingSendCookies":true,"settingDisableRenderRequestBody":false,"settingEncodeUrl":true,"settingRebuildPath":true,"settingFollowRedirects":"global","_type":"request"},{"_id":"env_f8c5dd568e8e8cd86055c2221b807086d5dd9f44","parentId":"wrk_139b3a6f18344e0085b2c3597e6f9172","modified":1617830261929,"created":1617830261929,"name":"Base Environment","data":{},"dataPropertyOrder":null,"color":null,"isPrivate":false,"metaSortKey":1617830261929,"_type":"environment"},{"_id":"jar_f8c5dd568e8e8cd86055c2221b807086d5dd9f44","parentId":"wrk_139b3a6f18344e0085b2c3597e6f9172","modified":1617830261959,"created":1617830261959,"name":"Default Jar","cookies":[],"_type":"cookie_jar"},{"_id":"spc_571b7a68cb844ed39656c896d5b8eca9","parentId":"wrk_139b3a6f18344e0085b2c3597e6f9172","modified":1617830261538,"created":1617830261538,"fileName":"KrakenD - KAFKA - API  - TEST","contents":"","contentType":"yaml","_type":"api_spec"}]}
+{
+  "_type": "export",
+  "__export_format": 4,
+  "__export_date": "2021-04-09T15:08:13.514Z",
+  "__export_source": "insomnia.desktop.app:v2021.2.1",
+  "resources": [
+    {
+      "_id": "req_f95bf655085141309c7cdd32be958956",
+      "parentId": "wrk_139b3a6f18344e0085b2c3597e6f9172",
+      "modified": 1617980827048,
+      "created": 1617830274554,
+      "url": "http://localhost:8080/krakend-gateway",
+      "name": "KRAKEND",
+      "description": "",
+      "method": "GET",
+      "body": { "mimeType": "application/json", "text": "" },
+      "parameters": [],
+      "headers": [
+        {
+          "name": "alg",
+          "value": "RS256",
+          "description": "",
+          "id": "pair_1e0b3afa903f4a1399f4ba65b2b213d5"
+        },
+        {
+          "name": "typ",
+          "value": "JWT",
+          "description": "",
+          "id": "pair_968021be5a824607b90c4c7d0c629b17"
+        },
+        {
+          "name": "kid",
+          "value": "",
+          "description": "",
+          "id": "pair_3e48b8ccfe04468195de78987772e120"
+        },
+        {
+          "name": "Authorization",
+          "value": "Bearer your-token",
+          "description": "",
+          "id": "pair_becd3d4bbee84213a3877ddf5c20ad35"
+        }
+      ],
+      "authentication": {},
+      "metaSortKey": -1617830274555,
+      "isPrivate": false,
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
+      "_id": "wrk_139b3a6f18344e0085b2c3597e6f9172",
+      "parentId": null,
+      "modified": 1617830261531,
+      "created": 1617830261531,
+      "name": "KrakenD - KAFKA - API  - TEST",
+      "description": "",
+      "scope": "collection",
+      "_type": "workspace"
+    },
+    {
+      "_id": "req_c9394c007f0d47afaa65672cddcb229a",
+      "parentId": "wrk_139b3a6f18344e0085b2c3597e6f9172",
+      "modified": 1617912249478,
+      "created": 1617830588485,
+      "url": "http://localhost:3000/first-route",
+      "name": "GET First Route HTTPS",
+      "description": "",
+      "method": "POST",
+      "body": {},
+      "parameters": [],
+      "headers": [],
+      "authentication": {},
+      "metaSortKey": -1617515837998.5,
+      "isPrivate": false,
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
+      "_id": "req_5a3c52deb9c44ee4946b9992b41ed2c7",
+      "parentId": "wrk_139b3a6f18344e0085b2c3597e6f9172",
+      "modified": 1617919141604,
+      "created": 1617919128315,
+      "url": "http://localhost:3000/token-generate",
+      "name": "Token Generate",
+      "description": "",
+      "method": "POST",
+      "body": {},
+      "parameters": [],
+      "headers": [],
+      "authentication": {},
+      "metaSortKey": -1617358619720.25,
+      "isPrivate": false,
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
+      "_id": "env_f8c5dd568e8e8cd86055c2221b807086d5dd9f44",
+      "parentId": "wrk_139b3a6f18344e0085b2c3597e6f9172",
+      "modified": 1617830261929,
+      "created": 1617830261929,
+      "name": "Base Environment",
+      "data": {},
+      "dataPropertyOrder": null,
+      "color": null,
+      "isPrivate": false,
+      "metaSortKey": 1617830261929,
+      "_type": "environment"
+    },
+    {
+      "_id": "jar_f8c5dd568e8e8cd86055c2221b807086d5dd9f44",
+      "parentId": "wrk_139b3a6f18344e0085b2c3597e6f9172",
+      "modified": 1617830261959,
+      "created": 1617830261959,
+      "name": "Default Jar",
+      "cookies": [],
+      "_type": "cookie_jar"
+    },
+    {
+      "_id": "spc_571b7a68cb844ed39656c896d5b8eca9",
+      "parentId": "wrk_139b3a6f18344e0085b2c3597e6f9172",
+      "modified": 1617830261538,
+      "created": 1617830261538,
+      "fileName": "KrakenD - KAFKA - API  - TEST",
+      "contents": "",
+      "contentType": "yaml",
+      "_type": "api_spec"
+    }
+  ]
+}
